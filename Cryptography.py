@@ -108,3 +108,5 @@ class ColorManager:
         g = (int(xor_key[4:8]) + int(xor_key[12:])) %256
         b = (int(xor_key[8:12]) + int(xor_key[12:])) %256
         return r,g,b
+
+# newline
